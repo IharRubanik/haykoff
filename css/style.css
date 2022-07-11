@@ -426,10 +426,7 @@ body .wrapper .about .backgroung-title {
   font-size: 26.042vw;
   line-height: 25.521vw;
   opacity: 0.15;
-  text-shadow: white 0px 0.998px 0vw, white 0px -0.998px 0vw,
- white 0.998px 0px 0vw, white -0.998px 0px 0vw,
- white 0.998px 0.998px 0vw, white 0.998px -0.998px 0vw,
- white -0.998px 0.998px 0vw, white -0.998px -0.998px 0vw;
+  text-shadow: white 0px 0.998px 0vw, white 0px -0.998px 0vw, white 0.998px 0px 0vw, white -0.998px 0px 0vw, white 0.998px 0.998px 0vw, white 0.998px -0.998px 0vw, white -0.998px 0.998px 0vw, white -0.998px -0.998px 0vw;
   -webkit-transform: translateY(-1.042vw);
           transform: translateY(-1.042vw);
 }
@@ -1907,10 +1904,10 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     height: auto;
   }
   body .wrapper::before {
-    width: 101.667vw;
-    height: 108vw;
-    top: 13vw;
-    left: -28vw;
+    width: 111.667vw;
+    height: 85vw;
+    top: 26vw;
+    left: -37vw;
     z-index: 2;
   }
   body .wrapper .header {
