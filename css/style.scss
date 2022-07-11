@@ -32,8 +32,8 @@ body {
       height: 39.063vw;
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      top: 0;
-      left: 0;
+      top: -3.594vw;
+    left: -5vw;
     }
     .header {
       padding: 2.292vw 2.083vw 0 2.083vw;
@@ -692,8 +692,10 @@ body {
   body {
     .wrapper {
       &::before {
-        width: 58.691vw;
+        width: 68.691vw;
         height: 54.785vw;
+        top: -4vw;
+    left: -16vw;
       }
       .header {
         padding: 4.004vw 3.906vw 0 3.906vw;
@@ -1143,7 +1145,7 @@ body {
       &::before {
         width: 85.255vw;
         height: 95.047vw;
-        left: -15.719vw;
+        left: -22.719vw;
       }
       .header {
         padding: 5.469vw 5.208vw 0 5.208vw;
@@ -1557,10 +1559,12 @@ body {
       
       }
       &::before {
-        width: 86.667vw;
-        height: 84vw;
-        top: 40vw;
+        width: 101.667vw;
+        height: 108vw;
+        top: 13vw;
+        left: -28vw;
         z-index: 2;
+        
       }
       .header {
         padding: 6.667vw 5.333vw 0 5.333vw;

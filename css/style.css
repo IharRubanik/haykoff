@@ -39,8 +39,8 @@ body .wrapper::before {
   height: 39.063vw;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  top: 0;
-  left: 0;
+  top: -3.594vw;
+  left: -5vw;
 }
 
 body .wrapper .header {
@@ -426,7 +426,10 @@ body .wrapper .about .backgroung-title {
   font-size: 26.042vw;
   line-height: 25.521vw;
   opacity: 0.15;
-  text-shadow: white 0px 0.998px 0vw, white 0px -0.998px 0vw, white 0.998px 0px 0vw, white -0.998px 0px 0vw, white 0.998px 0.998px 0vw, white 0.998px -0.998px 0vw, white -0.998px 0.998px 0vw, white -0.998px -0.998px 0vw;
+  text-shadow: white 0px 0.998px 0vw, white 0px -0.998px 0vw,
+ white 0.998px 0px 0vw, white -0.998px 0px 0vw,
+ white 0.998px 0.998px 0vw, white 0.998px -0.998px 0vw,
+ white -0.998px 0.998px 0vw, white -0.998px -0.998px 0vw;
   -webkit-transform: translateY(-1.042vw);
           transform: translateY(-1.042vw);
 }
@@ -963,8 +966,10 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     width: 92.188vw;
   }
   body .wrapper::before {
-    width: 58.691vw;
+    width: 68.691vw;
     height: 54.785vw;
+    top: -4vw;
+    left: -16vw;
   }
   body .wrapper .header {
     padding: 4.004vw 3.906vw 0 3.906vw;
@@ -1465,7 +1470,7 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   body .wrapper::before {
     width: 85.255vw;
     height: 95.047vw;
-    left: -15.719vw;
+    left: -22.719vw;
   }
   body .wrapper .header {
     padding: 5.469vw 5.208vw 0 5.208vw;
@@ -1902,9 +1907,10 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     height: auto;
   }
   body .wrapper::before {
-    width: 86.667vw;
-    height: 84vw;
-    top: 40vw;
+    width: 101.667vw;
+    height: 108vw;
+    top: 13vw;
+    left: -28vw;
     z-index: 2;
   }
   body .wrapper .header {
