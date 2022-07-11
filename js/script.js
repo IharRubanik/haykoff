@@ -1,24 +1,27 @@
 window.addEventListener("load", function () {
-  let picturesArrey = document.querySelectorAll(".pictures");
-  let slides = document.querySelectorAll(".slide");
-  let slideIndex = 0;
-  let body = document.querySelector("body");
-  let openMenu = document.querySelector("#open-menu");
-  let closeMenu = document.querySelector("#close-menu");
-  let menuMobile = document.querySelector(".menu__mobile");
-
-  openMenu.onclick = function() {
+  let picturesArrey = document.querySelectorAll(".pictures"),
+    slides = document.querySelectorAll(".slide"),
+    slideIndex = 0,
+    body = document.querySelector("body"),
+    openMenu = document.querySelector("#open-menu"),
+    closeMenu = document.querySelector("#close-menu"),
+    menuMobile = document.querySelector(".menu__mobile");
+    
+// Burger menu
+  openMenu.onclick = function () {
     body.style.overflow = "hidden";
     menuMobile.style.zIndex = 99;
-    menuMobile.classList.add("active")
-  }
-  closeMenu.onclick = function() {
+    menuMobile.classList.add("active");
+  };
+  closeMenu.onclick = function () {
     body.style.overflow = "visible";
-    menuMobile.classList.remove("active")
+    menuMobile.classList.remove("active");
     setTimeout(() => {
-     menuMobile.style.zIndex = -1;
+      menuMobile.style.zIndex = -1;
     }, 100);
-  }
+  };
+
+  // Galery
   function showImages() {
     setTimeout(() => {
       picturesArrey[5].classList.add("active");
@@ -69,20 +72,20 @@ window.addEventListener("load", function () {
       picturesArrey[15].classList.add("active");
     }, 3200);
     setTimeout(() => {
-      hidenImages ();
+      hidenImages();
     }, 3400);
   }
-showImages()
- function hidenImages () {
-  for (i = 0; i < picturesArrey.length; i++) {
-    picturesArrey[i].classList.remove('active')
+  showImages();
+  function hidenImages() {
+    for (i = 0; i < picturesArrey.length; i++) {
+      picturesArrey[i].classList.remove("active");
+    }
+    setTimeout(() => {
+      showImages();
+    }, 200);
   }
-  setTimeout(() => {
-    showImages()
-  },200)
- }
 
-//   Slider
+  //   Slider
   function sliderAbout() {
     ++slideIndex;
     if (slideIndex >= slides.length) {
@@ -98,16 +101,12 @@ showImages()
     sliderAbout();
   }, 1500);
 
-// Scroll
+  // Scroll
   window.onscroll = function (e) {
-
-  if(window.scrollY >= 120) {
-   
-    document.querySelector('.photo').classList.add('active')
-  }
-  else{
-    document.querySelector('.photo').classList.remove('active')
-  }
-};
-
+    if (window.scrollY >= 120) {
+      document.querySelector(".photo").classList.add("active");
+    } else {
+      document.querySelector(".photo").classList.remove("active");
+    }
+  };
 });
