@@ -14,6 +14,12 @@ body {
     width: 100%;
     overflow: hidden;
     background: #131315;
+    .blur{
+      position: absolute;
+      width: 69vw;
+      left: -14vw;
+      top: -11vw;
+    }
     .menu__mobile {
       display: none;
     }
@@ -23,17 +29,6 @@ body {
       right: 0;
       width: 100%;
       z-index: 1;
-    }
-    &::before {
-      position: absolute;
-      content: "";
-      background-image: url(../img/main/blur.png);
-      width: 52.083vw;
-      height: 39.063vw;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      top: -3.594vw;
-    left: -5vw;
     }
     .header {
       padding: 2.292vw 2.083vw 0 2.083vw;
@@ -691,11 +686,11 @@ body {
   }
   body {
     .wrapper {
-      &::before {
-        width: 68.691vw;
-        height: 54.785vw;
-        top: -4vw;
-    left: -16vw;
+      .blur{
+        position: absolute;
+        width: 128vw;
+        left: -46vw;
+        top: -1vw;
       }
       .header {
         padding: 4.004vw 3.906vw 0 3.906vw;
@@ -1020,6 +1015,13 @@ body {
   }
   body {
     .wrapper {
+      .blur{
+        position: absolute;
+        width: 138vw;
+        left: -53vw;
+        top: 23vw;
+        z-index: 1;
+      }
       .menu__mobile {
         display: block;
         position: fixed;
@@ -1141,11 +1143,6 @@ body {
             transform: translateX(0);
           }
         }
-      }
-      &::before {
-        width: 85.255vw;
-        height: 95.047vw;
-        left: -22.719vw;
       }
       .header {
         padding: 5.469vw 5.208vw 0 5.208vw;
@@ -1413,7 +1410,6 @@ body {
             }
             .footer__block-two {
               .block__two-nav {
-                // width: 26.042vw;
                 margin: 0.391vw 0 0 0;
                 gap: 2.214vw;
                 span {
@@ -1746,7 +1742,7 @@ body {
             height: 77.333vw;
             &::before {
               width: 54.133vw;
-              height: 79.2vw;
+              height: 79.7vw;
               background-image: url(../img/about/rectangle-mobile.png);
             }
             .slide {
@@ -1755,7 +1751,6 @@ body {
             }
           }
           .slider__description {
-            // display: none;
             position: absolute;
             right: auto;
             top: 164.533vw;
@@ -1857,7 +1852,6 @@ body {
                 position: absolute;
                 left: 5.333vw;
                 top: 34.667vw;
-                // width: 53.333vw;
                 margin: 0.8vw 0 0 0;
                 gap: 4.533vw;
                 span {

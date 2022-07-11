@@ -19,6 +19,13 @@ body .wrapper {
   background: #131315;
 }
 
+body .wrapper .blur {
+  position: absolute;
+  width: 69vw;
+  left: -14vw;
+  top: -11vw;
+}
+
 body .wrapper .menu__mobile {
   display: none;
 }
@@ -29,18 +36,6 @@ body .wrapper .backgroung {
   right: 0;
   width: 100%;
   z-index: 1;
-}
-
-body .wrapper::before {
-  position: absolute;
-  content: "";
-  background-image: url(../img/main/blur.png);
-  width: 52.083vw;
-  height: 39.063vw;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  top: -3.594vw;
-  left: -5vw;
 }
 
 body .wrapper .header {
@@ -962,11 +957,11 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   .container {
     width: 92.188vw;
   }
-  body .wrapper::before {
-    width: 68.691vw;
-    height: 54.785vw;
-    top: -4vw;
-    left: -16vw;
+  body .wrapper .blur {
+    position: absolute;
+    width: 128vw;
+    left: -46vw;
+    top: -1vw;
   }
   body .wrapper .header {
     padding: 4.004vw 3.906vw 0 3.906vw;
@@ -1314,6 +1309,13 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   .container {
     width: 89.453vw;
   }
+  body .wrapper .blur {
+    position: absolute;
+    width: 138vw;
+    left: -53vw;
+    top: 23vw;
+    z-index: 1;
+  }
   body .wrapper .menu__mobile {
     display: block;
     position: fixed;
@@ -1463,11 +1465,6 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     transition: 1s;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-  }
-  body .wrapper::before {
-    width: 85.255vw;
-    height: 95.047vw;
-    left: -22.719vw;
   }
   body .wrapper .header {
     padding: 5.469vw 5.208vw 0 5.208vw;
@@ -2105,7 +2102,7 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   }
   body .wrapper .about .about__slider-block .slider::before {
     width: 54.133vw;
-    height: 79.2vw;
+    height: 79.7vw;
     background-image: url(../img/about/rectangle-mobile.png);
   }
   body .wrapper .about .about__slider-block .slider .slide {
