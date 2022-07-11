@@ -23,7 +23,7 @@ body .wrapper .blur {
   position: absolute;
   width: 69vw;
   left: -14vw;
-  top: -11vw;
+  top: -9vw;
 }
 
 body .wrapper .menu__mobile {
@@ -959,9 +959,9 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   }
   body .wrapper .blur {
     position: absolute;
-    width: 128vw;
-    left: -46vw;
-    top: -1vw;
+    width: 110vw;
+    left: -42vw;
+    top: -13vw;
   }
   body .wrapper .header {
     padding: 4.004vw 3.906vw 0 3.906vw;
@@ -1313,7 +1313,7 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     position: absolute;
     width: 138vw;
     left: -53vw;
-    top: 23vw;
+    top: -3vw;
     z-index: 1;
   }
   body .wrapper .menu__mobile {
@@ -1556,7 +1556,7 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
   body .wrapper .main .main__left-block .main__pictures div {
     width: 5.245vw;
     height: 5.245vw;
-    border: 0.9 0.44vw solid #212123;
+    border: 0.061vw solid #212123;
   }
   body .wrapper .main .main__photo {
     -webkit-transform: translateY(0);
@@ -1733,7 +1733,7 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
     height: 5.208vw;
     border: 0.13vw solid rgba(255, 255, 255, 0.1);
     font-size: 1.693vw;
-    background-position: 0.998px center;
+    background-position: 0.13vw center;
     background-size: 4.688vw 4.688vw;
   }
   body .wrapper .footer .footer__container .footer__left-block .footer__block-one span {
@@ -1857,6 +1857,13 @@ body .wrapper .footer .footer__container .footer__right-block .footer__form .inp
 @media only screen and (max-width: 600px) {
   .container {
     width: 89.333vw;
+  }
+  body .wrapper .blur {
+    position: absolute;
+    width: 138vw;
+    left: -60vw;
+    top: 25vw;
+    z-index: 1;
   }
   body .wrapper .menu__mobile {
     width: 100vw;

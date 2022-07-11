@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-button{
+button {
   padding: 0;
 }
 .container {
@@ -14,11 +14,11 @@ body {
     width: 100%;
     overflow: hidden;
     background: #131315;
-    .blur{
+    .blur {
       position: absolute;
       width: 69vw;
       left: -14vw;
-      top: -11vw;
+      top: -9vw;
     }
     .menu__mobile {
       display: none;
@@ -679,18 +679,17 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 1200px) {
   .container {
     width: 92.188vw;
   }
   body {
     .wrapper {
-      .blur{
+      .blur {
         position: absolute;
-        width: 128vw;
-        left: -46vw;
-        top: -1vw;
+        width: 110vw;
+        left: -42vw;
+        top: -13vw;
       }
       .header {
         padding: 4.004vw 3.906vw 0 3.906vw;
@@ -703,7 +702,7 @@ body {
           strong {
             font-size: 1.465vw;
             line-height: 2.148vw;
-            
+
             &:nth-child(1) {
               gap: 0.977vw;
             }
@@ -1015,11 +1014,11 @@ body {
   }
   body {
     .wrapper {
-      .blur{
+      .blur {
         position: absolute;
         width: 138vw;
         left: -53vw;
-        top: 23vw;
+        top: -3vw;
         z-index: 1;
       }
       .menu__mobile {
@@ -1127,7 +1126,7 @@ body {
                 display: flex;
                 gap: 1.302vw;
                 align-items: center;
-                svg{
+                svg {
                   width: 1.953vw;
                   height: auto;
                 }
@@ -1135,10 +1134,10 @@ body {
             }
           }
         }
-        &.active{
+        &.active {
           transition: 1s;
           opacity: 1;
-          .menu{
+          .menu {
             transition: 1s;
             transform: translateX(0);
           }
@@ -1230,7 +1229,7 @@ body {
             div {
               width: 5.245vw;
               height: 5.245vw;
-              border: 0.9.44vw solid #212123;
+              border: 0.061vw solid #212123;
             }
           }
         }
@@ -1395,7 +1394,7 @@ body {
                 height: 5.208vw;
                 border: 0.13vw solid rgba(255, 255, 255, 0.1);
                 font-size: 1.693vw;
-                background-position: 0.998px center;
+                background-position: 0.13vw center;
                 background-size: 4.688vw 4.688vw;
               }
               span {
@@ -1502,13 +1501,19 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 600px) {
   .container {
     width: 89.333vw;
   }
   body {
     .wrapper {
+      .blur {
+        position: absolute;
+        width: 138vw;
+        left: -60vw;
+        top: 25vw;
+        z-index: 1;
+      }
       .menu__mobile {
         width: 100vw;
         height: 100vh;
@@ -1552,7 +1557,6 @@ body {
             }
           }
         }
-      
       }
       &::before {
         width: 111.667vw;
@@ -1560,7 +1564,6 @@ body {
         top: 26vw;
         left: -37vw;
         z-index: 2;
-        
       }
       .header {
         padding: 6.667vw 5.333vw 0 5.333vw;
