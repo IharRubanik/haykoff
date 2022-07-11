@@ -16,9 +16,11 @@
 }
 body {
   .wrapper {
+
     position: relative;
     width: 100%;
     overflow: hidden;
+
     background: #131315;
     .backgroung {
       position: fixed;
@@ -53,7 +55,8 @@ body {
       .header-nav {
         display: flex;
         align-items: center;
-        gap: 2.76vw;
+        gap: 2.604vw;
+        transform: translateY(-0.208vw);
         strong {
           font-family: "Oswald";
           font-style: normal;
@@ -136,6 +139,8 @@ body {
         }
         .main__pictures {
           position: relative;
+          left: -0.417vw;
+    top: -1.458vw;
           border-radius: 100%;
           overflow: hidden;
           width: 23.75vw;
@@ -329,7 +334,7 @@ body {
       }
       .main__photo {
         position: relative;
-        transform: translateY(-5.208vw);
+        transform: translateY(-5.521vw);
         display: flex;
         flex-direction: column;
         margin: 0 0 0 12.5vw;
@@ -344,6 +349,7 @@ body {
           color: #9000ff;
           margin: 0 0 0 6.51vw;
           transform: translateY(-1.042vw);
+
           text-indent: 4.167vw;
         }
         .photo {
@@ -418,9 +424,10 @@ body {
         justify-content: space-between;
         .slider__numbers {
           display: flex;
-          justify-content: space-between;
+          justify-content: flex-start;
           flex-direction: column;
           width: 9.375vw;
+          gap: 2.396vw;
           .slider__numbers-item {
             display: flex;
             flex-direction: column;
@@ -486,11 +493,11 @@ body {
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
-          gap: 3.385vw;
+          gap: 4.27vw;
           width: 34.479vw;
           .description-container {
             p {
-              margin: 0.521vw 0 0 0;
+              margin: 0.99vw 0 0 0;
               font-family: "Oswald";
               font-style: normal;
               font-weight: 200;
@@ -502,6 +509,7 @@ body {
           }
           button {
             position: relative;
+            top: -1.354vw;
             width: 15.469vw;
             height: 7.031vw;
             background: none;
@@ -565,7 +573,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 4.063vw 0 4.115vw 0;
+        padding: 4.063vw 0 0 0;
         .footer__left-block {
           display: flex;
           justify-content: space-between;
@@ -601,7 +609,6 @@ body {
               background-repeat: no-repeat;
               background-size: 1.875vw 1.875vw;
               transition: 0.3s;
-              padding: 0;
               flex-shrink: 0;
               &:hover {
                 transition: 0.3s;

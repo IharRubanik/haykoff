@@ -81,7 +81,9 @@ body .wrapper .header .header-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 2.76vw;
+  gap: 2.604vw;
+  -webkit-transform: translateY(-0.208vw);
+          transform: translateY(-0.208vw);
 }
 
 body .wrapper .header .header-nav strong {
@@ -187,6 +189,8 @@ body .wrapper .main .main__left-block .main__title {
 
 body .wrapper .main .main__left-block .main__pictures {
   position: relative;
+  left: -0.417vw;
+  top: -1.458vw;
   border-radius: 100%;
   overflow: hidden;
   width: 23.75vw;
@@ -362,8 +366,8 @@ body .wrapper .main .main__left-block .main__pictures div:nth-child(16) {
 
 body .wrapper .main .main__photo {
   position: relative;
-  -webkit-transform: translateY(-5.208vw);
-          transform: translateY(-5.208vw);
+  -webkit-transform: translateY(-5.521vw);
+          transform: translateY(-5.521vw);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -476,14 +480,15 @@ body .wrapper .about .about__slider-block .slider__numbers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   width: 9.375vw;
+  gap: 2.396vw;
 }
 
 body .wrapper .about .about__slider-block .slider__numbers .slider__numbers-item {
@@ -573,12 +578,12 @@ body .wrapper .about .about__slider-block .slider__description {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  gap: 3.385vw;
+  gap: 4.27vw;
   width: 34.479vw;
 }
 
 body .wrapper .about .about__slider-block .slider__description .description-container p {
-  margin: 0.521vw 0 0 0;
+  margin: 0.99vw 0 0 0;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
@@ -590,6 +595,7 @@ body .wrapper .about .about__slider-block .slider__description .description-cont
 
 body .wrapper .about .about__slider-block .slider__description button {
   position: relative;
+  top: -1.354vw;
   width: 15.469vw;
   height: 7.031vw;
   background: none;
@@ -667,7 +673,7 @@ body .wrapper .footer .footer__container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 4.063vw 0 4.115vw 0;
+  padding: 4.063vw 0 0 0;
 }
 
 body .wrapper .footer .footer__container .footer__left-block {
@@ -727,7 +733,6 @@ body .wrapper .footer .footer__container .footer__left-block .footer__block-one 
   background-size: 1.875vw 1.875vw;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }

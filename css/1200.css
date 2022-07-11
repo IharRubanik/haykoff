@@ -48,6 +48,7 @@
     position: absolute;
     right: -1.66vw;
     top: 14.551vw;
+    left: auto;
   }
   body .wrapper .main .main__left-block .main__pictures::after {
     width: 35.742vw;
@@ -168,6 +169,7 @@
     line-height: 2.637vw;
     left: 17.676vw;
     bottom: 3.809vw;
+    top: auto;
   }
   body .wrapper .about .about__slider-block .slider__description button img {
     position: absolute;
